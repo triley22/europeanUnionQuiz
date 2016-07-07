@@ -51,7 +51,7 @@ var questions = [{
   		var numberCorrect = 0;
     	var currentQuestion = 0;
 
-$(document).ready(function() {
+jQuery(document).ready(function() {
 	
     
     $("#question_wrapper").on("click", "#submit", function () {
