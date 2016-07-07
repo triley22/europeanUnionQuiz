@@ -1,34 +1,81 @@
 body {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1;
+	font-family: 'sans-serif';
 	color: #2d1010;
 	font-size: 22px;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
 }
-
+ol, ul {
+	list-style: none;
+}
 html {
 	background-image: url('http://i.imgur.com/gRyIuiv.jpg');
 	background-repeat: no-repeat;
 	background-position: top-center;
 }
 h1 {
-	font-family: sans-serif;
+	font-family: 'sans-serif'
 	font-size: 70px;
 	text-align: center;
 	color: #ffe001;
 }
-
 #question_wrapper {
-	text-align: center;
+	text-align: left;
 	width: 500px;
 	margin: 0 auto;
-	font-family: sans-serif;
+	font-family: 'sans-serif';
 	font-size: 24px;
 	padding-top: 150px;
 
 }
 #answer_block {
+	padding-top: 50px;
 	text-align: left;
-	font-size: 18px;
+	font-size: 16px;
 }
+#button_holder {
+	margin-left: 50px;
+}
+#submit {
+	font-size: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+#retry_button{
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 5px;
+	display: none;
+}
+#bottom {
+	text-align: center;
+	white-space: nowrap;
+	
+}
+#question_score {
+	display: inline-block;
+}
+.question {
+	vertical-align: left;
+}
+#question_score {
+	display: inline-block;
+}
+
+#fact_holder {
+	padding-top: 0.5em;
+	display: inline-block;
+	font-family: 'sans-serif';
+	font-size: 20px;
+	text-align:center;
+	width: 450px;
+	vertical-align:top;
+	margin-left: 30px;
+	margin-top: 70px;
+}
+#final {
+	font-size: 24px;
+}
+

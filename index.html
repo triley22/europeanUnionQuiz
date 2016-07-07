@@ -11,21 +11,25 @@
 	<h1>European Union Quiz</h1>
 	<div id="question_wrapper">
 		<span class="question">Question #1: In which treaty was the name 'The European Union' first used?</span><br>
-			<div id="answer_block">
-				<input type ="radio" name = "option" class = "option" value="1"><span class="answer">Paris</span><br>
-				<input type ="radio" name = "option" class = "option" value="2"><span class="answer">Maastricht</span><br>
-				<input type ="radio" name = "option" class = "option" value="3"><span class="answer">Amsterdam</span><br>
-				<input type ="radio" name = "option" class = "option" value="4"><span class="answer">Germany</span><br>
-			</div>
-			<div id="button_block">
-			<input type="button" id="submit" value="Submit answer"><span id="hint"></span>
+			<p><div id="answer_holder">
+				<input type="radio" name="option" class="option" value="0"><span class="answer">England</span><br>
+				<input type ="radio" name = "option" class = "option" value="1"><span class="answer">Maastricht</span><br>
+				<input type ="radio" name = "option" class = "option" value="2"><span class="answer">Amsterdam</span><br>
+				<input type ="radio" name = "option" class = "option" value="3"><span class="answer">Germany</span><br>
+			</div></p>
+			<div id="button_holder">
+			<input type="button" id="submit" value="Submit Answer"><span id="hint"></span>
 			<input type="button" id="retry_button" value="Try Again!">
 			</div>
-				<div id=fact_holder>
-				<span id="last_question_fact">
-				</span>
-				</div>
 	</div>
 </body>
+<div id="bottom">
+	<div id="question_score">
+			<div id="fact_holder">
+				<span id="last_question_fact">
+				</span>
+			</div>
+		</div>
+	</div>
 </html>
 
