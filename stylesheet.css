@@ -11,7 +11,7 @@ ol, ul {
 	list-style: none;
 }
 html {
-	background-image: url('http://i.imgur.com/gRyIuiv.jpg');
+	background-image: url('https://i.imgur.com/gRyIuiv.jpg');
 	background-repeat: no-repeat;
 	background-position: top-center;
 }
@@ -31,7 +31,6 @@ h1 {
 
 }
 #answer_block {
-	padding-top: 50px;
 	text-align: left;
 	font-size: 16px;
 }
